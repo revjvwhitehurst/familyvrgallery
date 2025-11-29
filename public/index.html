@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Family VR Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://unpkg.com/three@0.161.0/build/three.min.js"></script>
+</head>
+<body>
+  <h1>Welcome to Family VR Gallery</h1>
+  <!-- Add your WebXR VR Room interface here -->
+  <div id="gallery"></div>
+  <form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" name="image" accept="image/*" />
+    <button type="submit">Upload</button>
+  </form>
+  <script>
+    // Placeholder JavaScript for frontend logic
+    document.getElementById('uploadForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert('Image upload will be implemented soon!');
+    });
+  </script>
+</body>
+</html>

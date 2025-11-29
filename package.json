@@ -1,0 +1,14 @@
+{
+  "name": "familyvrgallery",
+  "version": "1.0.0",
+  "description": "WebXR Family VR Gallery full-stack project",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "three": "^0.161.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5"
+  }
+}
